@@ -1,0 +1,176 @@
+############################
+# macOS
+############################
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+############################
+# Xcode / Swift / iOS
+############################
+# User settings
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+
+# Xcode workspaces & schemes
+*.xcworkspace
+xcshareddata/
+
+# Derived data & build products
+DerivedData/
+build/
+Build/
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Swift Package Manager
+.swiftpm/
+.build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+# If you prefer to commit Podfile.lock, remove the line above.
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
+
+# Accio
+Dependencies/
+.accio/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+# Provisioning profiles
+*.mobileprovision
+*.provisionprofile
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+############################
+# React Native / Node
+############################
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+package-lock.json
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Metro / React Native
+.expo-shared/assets.json
+*.packager.config.js
+*.metro.config.js
+*.babel.config.js
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs
+*.log
+log.txt
+debug.log
+dist/
+
+# Coverage
+coverage/
+*.lcov
+
+# Misc
+.tmp/
+temp/
+.tmp-*
+*.swp
+*.swo
+
+############################
+# Expo
+############################
+.expo/
+.expo-shared/
+.expo-dev-cache/
+.expo/web-build/
+
+# Expo build outputs
+web-build/
+dist/
+**/*.tar.gz
+
+############################
+# iOS (React Native specific)
+############################
+ios/Pods/
+ios/build/
+ios/DerivedData/
+ios/*.xcodeproj/project.xcworkspace/
+ios/*.xcworkspace/xcuserdata/
+ios/*.xcodeproj/xcuserdata/
+
+############################
+# Android (in case RN Android exists)
+############################
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+android/captures/
+*.apk
+*.aab
+
+############################
+# IDEs / Editors
+############################
+# VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Cursor configs and artifacts
+.cursor/
+.cursor-tmp/
+cursor-history/
+
+# Codex configs/artifacts
+.codex/
+.codex-tmp/
+codex-history/
+
+# wrap
+wrap/
+wrap.*
+.wrap/
+
+
+
+# JetBrains
+.idea/
+*.iml
+
+# Others
+*.orig
+*.rej
