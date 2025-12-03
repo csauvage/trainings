@@ -174,3 +174,8 @@ wrap.*
 # Others
 *.orig
 *.rej
+
+############################
+# Project specific
+############################
+swift-6/scripts/
