@@ -243,11 +243,34 @@ class DemoData {
             )
         ]
 
+        // Partie 5: Apple Foundation Model (iOS 26+)
+        let partie5Scripts = [
+            DemoScript(
+                number: 1,
+                title: "Unstructured Text Generation",
+                description: "Basic text generation with await",
+                view: UnstructuredTextGeneration()
+            ),
+            DemoScript(
+                number: 2,
+                title: "Structured Books (@Generable)",
+                description: "Type-safe Book objects with @Generable",
+                view: StructuredBooksGeneration()
+            ),
+            DemoScript(
+                number: 3,
+                title: "Streaming Text Generation",
+                description: "Real-time streaming responses",
+                view: StreamingTextGeneration()
+            )
+        ]
+
         self.parties = [
             Partie(number: 1, title: "Cycle de Vie SwiftUI", scripts: partie1Scripts),
             Partie(number: 2, title: "Patterns de Performance", scripts: partie2Scripts),
             Partie(number: 3, title: "Animations & Transitions", scripts: partie3Scripts),
-            Partie(number: 4, title: "Liquid Glass (iOS 26+)", scripts: partie4Scripts)
+            Partie(number: 4, title: "Liquid Glass (iOS 26+)", scripts: partie4Scripts),
+            Partie(number: 5, title: "Apple Foundation Model (iOS 26+)", scripts: partie5Scripts)
         ]
     }
 }
